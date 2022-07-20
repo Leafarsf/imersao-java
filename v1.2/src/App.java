@@ -24,11 +24,13 @@ public class App {
         List<Map<String, String>> listaDeFilmes = Parser.parse(body);
 
         // exibir e manipular os dados
-        System.out.println("\u001b[31m Filmes do top 250 geral do IMDB: \u001b[0m");
+        System.out.println("\u001b[31m Top 10 Filmes do top 250 geral do IMDB: \u001b[0m");
 
-        for (Map<String,String> filme : listaDeFilmes) {
+        for (int i = 0; i < 10; i++) {
+
+            Map<String,String> filme = listaDeFilmes.get(i);
             
-            String urlImagem = filme.get("image");
+            String urlImagem = filme.get("image").replaceAll("(@+)(.*).jpg$", "$1.jpg");
             String nomeFilme = filme.get("title");
             
             InputStream inputStream = new URL(urlImagem).openStream();
@@ -41,6 +43,9 @@ public class App {
         
         }    
         }
-        
+
+       
         }
+        
+        
         
