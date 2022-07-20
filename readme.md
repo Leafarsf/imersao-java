@@ -12,4 +12,9 @@ Na aula 1, foi realizada a implementação de visualização dos 250 principais 
 <h2> Aula 2 (v1.2) </h2>
 <hr>
 
-Na aula 2, foi criada um gerador de figurinhas para o Whatsapp explorando bibliotecas nativas do Java. 
+Na aula 2, foi criada um gerador de figurinhas para o Whatsapp explorando bibliotecas nativas do Java.
+
+<h2> Aula 3 (v1.3) </h2>
+<hr>
+
+Na aula 3, melhorei o código com refatorações para torná-lo mais flexível e poder consumir duas API's: IMDB e NASA, utilizando interfaces para facilitar o processo de adaptação do código.
