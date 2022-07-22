@@ -19,7 +19,7 @@ Na aula 2, foi criada um gerador de figurinhas para o Whatsapp explorando biblio
 
 Na aula 3, melhorei o código com refatorações para torná-lo mais flexível e poder consumir duas API's: IMDB e NASA, utilizando interfaces para facilitar o processo de adaptação do código.
 
-<h2> Aula 3 (alura-api) </h2>
+<h2> Aula 3 (v1.4) </h2>
 <hr>
 
-Na aula 3, foi construída uma API REST com conteúdo próprio, a partir de ferramentas profissionais como o Spring Framework, Mongodb, banco de dados NoSQL e Postman.
+Na aula 3, foi construída uma [API REST](https://alura-api.herokuapp.com/linguagens) com conteúdo próprio, a partir de ferramentas profissionais como o Spring Framework, Mongodb, banco de dados NoSQL e Postman. A versão 1.4 do app já conta com a inserção da API para produção dos stickers.
